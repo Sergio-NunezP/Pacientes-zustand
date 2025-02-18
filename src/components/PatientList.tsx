@@ -16,12 +16,12 @@ export default function PatientList() {
                         Administra tus {''}
                         <span className="text-indigo-600 font-bold">Pacientes y Citas</span>
                     </p>
-                    {patients.map(patient => {
+                    {patients.map(patient => (
                         <PatientDetails
                             key={patient.id}
                             patient={patient}
                         />
-                    })}
+                    ))}
                 </>
             ) : (
                 <>
