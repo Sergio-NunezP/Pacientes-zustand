@@ -6,6 +6,7 @@ import { usePatientStore } from '../store'
 export default function PatientForm() {
 
     const addPatient = usePatientStore(state => state.addPatient)
+
     // DraftPatient para tener el mismo "data" que registerPatient
     const { register, handleSubmit, formState: { errors }, reset } = useForm<DraftPatient>()
     const registerPatient = (data: DraftPatient) => {
