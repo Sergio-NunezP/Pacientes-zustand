@@ -29,13 +29,13 @@ export default function PatientDetails({ patient }: PatientDetailsProps) {
             <div className="flex flex-col lg:flex-row gap-4 justify-between mt-10">
                 <button
                     type="button"
-                    className="py-2 px-10 bg-indigo-600 hover:bg-indigo-700 text-white font-bold uppercase rounded-lg"
+                    className="py-2 px-10 bg-orange-600 hover:bg-orange-700 text-white font-bold uppercase rounded-lg"
                     onClick={() => getPatientById(patient.id)}
                 >Editar</button>
 
                 <button
                     type="button"
-                    className="py-2 px-10 bg-red-600 hover:bg-red-700 text-white font-bold uppercase rounded-lg"
+                    className="py-2 px-10 bg-red-700 hover:bg-red-800 text-white font-bold uppercase rounded-lg"
                     onClick={handleClick}
                 >Eliminar</button>
 

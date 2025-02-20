@@ -44,7 +44,7 @@ export default function PatientForm() {
 
             <p className="text-lg mt-5 text-center mb-10">
                 Añade Pacientes y {''}
-                <span className="text-indigo-600 font-bold">Administralos</span>
+                <span className="text-orange-500 font-bold">Administralos</span>
             </p>
 
             <form
@@ -152,7 +152,7 @@ export default function PatientForm() {
 
                 <input
                     type="submit"
-                    className="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-colors"
+                    className="bg-orange-600 w-full p-3 text-white uppercase font-bold hover:bg-orange-700 cursor-pointer transition-colors"
                     value='Guardar Paciente'
                 />
             </form>
